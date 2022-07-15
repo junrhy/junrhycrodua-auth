@@ -1,7 +1,7 @@
 $(document).ready(function () {
     let logoutElement = $("#logout");
     let bearerToken = logoutElement.data('token');
-    let LOGOUT_ENDPOINT = 'http://localhost:80/api/logout';
+    let LOGOUT_ENDPOINT = 'https://api.junrhycrodua.com/api/logout';
 
     $(logoutElement).click(function(){
         $.ajax({

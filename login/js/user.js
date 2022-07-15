@@ -1,6 +1,6 @@
 $(document).ready(function () {
     let bearerToken = $("#auth").data('token');
-    let AUTH_USER_ENDPOINT = 'http://localhost:80/api/user';
+    let AUTH_USER_ENDPOINT = 'https://api.junrhycrodua.com/api/user';
 
     $.ajax({
         type: 'GET',	

@@ -3,7 +3,7 @@ $(document).ready(function () {
     
     var access_type = null;
     var brand_id = null;
-    var SIGNUP_ENDPOINT = 'http://localhost:80/api/register';
+    var SIGNUP_ENDPOINT = 'https://api.junrhycrodua.com/api/register';
 
     if (searchParams.has('access')) {
         access_type = searchParams.get('access');
