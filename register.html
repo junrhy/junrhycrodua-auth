@@ -9,10 +9,9 @@
         $(document).ready(function () {
             debugger;
 			 
-			
-		$.ajax({
+			$.ajax({
                 type: 'POST',	
-                url: '127.0.0.1/api/register',
+                url: 'http://localhost:80/api/register',
                 headers: {
                     'Accept': 'application/json'
 				},
@@ -20,7 +19,7 @@
                 data:	
 				{
                     "name":"Jun Rhy",
-                    "email":"a@gmail.com",
+                    "email":"b@gmail.com",
                     "password":"123456",
                     "password_confirmation":"123456",
                     "access_type":"admin",

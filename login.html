@@ -12,14 +12,14 @@
 			
 		$.ajax({
                 type: 'POST',	
-                url: '127.0.0.1/api/login',
+                url: 'http://localhost:80/api/login',
                 headers: {
                     'Accept': 'application/json'
 				},
                 dataType: "json",
                 data:	
 				{
-                    "email":"a@gmail.com",
+                    "email":"b@gmail.com",
                     "password":"123456",
                     "access_type":"admin",
                     "brand_id":"6046d70f-0f01-4d5f-a346-47ee84fe4483"
