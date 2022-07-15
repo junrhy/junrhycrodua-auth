@@ -17,6 +17,8 @@ $(document).ready(function () {
         window.location.href = "404.html";
     }
 
+    $("#sign-in-link").attr('href', 'https://signup.junrhycrodua.com/?brand=' + brand_id);
+
     $("#signup").click(function(){
         var has_error = false;
 
