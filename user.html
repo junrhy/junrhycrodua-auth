@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function () {
+            debugger;
+			 
+			
+		$.ajax({
+                type: 'GET',	
+                url: '127.0.0.1/api/user',
+                headers: {
+                    'Authorization': 'Bearer 18|JxSQJT63YYOA0jYrS6VFaG4rlI0W7aKa3uBhTvac',
+                    'Accept': 'application/json'
+				},
+                success: function (data) {
+                    debugger;
+                },
+                error: function (data) {
+                    debugger;
+                }
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    </div>
+    </form>
+</body>
+</html>
